@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExcerisesAppAndrewFarrell.excerises">
+    <ContentPage.Content>
+    <ScrollView >
+    <StackLayout BackgroundColor="lightgreen">
+
+    <Label TextColor="white" FontSize = "40" Text="Fitness App"/>
+
+     <Image x:Name="imageMain" Aspect="AspectFit" >
+     </Image>       
+            
+    <Label TextColor="white" FontSize = "20" Text="Welcome to the fitness app This app will show you how to get in shape!"
+               
+     VerticalOptions="CenterAndExpand" 
+     HorizontalOptions="CenterAndExpand" />
+
+     <Label TextColor="white" FontSize = "25" Text="Arms"
+               
+     VerticalOptions="CenterAndExpand" 
+     HorizontalOptions="CenterAndExpand" />
+
+     <Image x:Name="imageMain1" Aspect="AspectFit" >
+     <Image.GestureRecognizers>
+     <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" 
+     NumberOfTapsRequired="1"/>
+     </Image.GestureRecognizers>
+     </Image>
+                
+     <Label TextColor="white" FontSize = "15" Text="Click image to get started on Bicept Curls"
+               
+     VerticalOptions="CenterAndExpand" 
+     HorizontalOptions="CenterAndExpand" />
+     <Label TextColor="white" FontSize = "25" Text="Chest"
+               
+     VerticalOptions="CenterAndExpand" 
+     HorizontalOptions="CenterAndExpand" />
+
+     <Image x:Name="imageMain2" Aspect="AspectFit" >
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped1" 
+      NumberOfTapsRequired="1"/>
+     </Image.GestureRecognizers> 
+     </Image>
+
+               
+
+      <Label TextColor="white" FontSize = "15" Text="Click image to get started on Barbel Bench Press"
+               
+     VerticalOptions="CenterAndExpand" 
+     HorizontalOptions="CenterAndExpand" />
+
+
+
+     <Label TextColor="white" FontSize = "25" Text="Abs"
+               
+      VerticalOptions="CenterAndExpand" 
+      HorizontalOptions="CenterAndExpand" />
+
+
+     <Image x:Name="imageMain3" Aspect="AspectFit" >
+      <Image.GestureRecognizers>
+      <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped2" 
+      NumberOfTapsRequired="1"/>
+      </Image.GestureRecognizers>
+
+     </Image>
+     <Label TextColor="white" FontSize = "15" Text="Click image to get started on Reverse Crunch"
+               
+     VerticalOptions="CenterAndExpand" 
+     HorizontalOptions="CenterAndExpand" />
+
+     <Label TextColor="white" FontSize = "25" Text="Quadricepts"
+               
+     VerticalOptions="CenterAndExpand" 
+     HorizontalOptions="CenterAndExpand" />
+
+     <Image x:Name="imageMain4" Aspect="AspectFit" >
+     <Image.GestureRecognizers>
+      <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped3" 
+      NumberOfTapsRequired="1"/>
+     </Image.GestureRecognizers>
+
+     </Image>
+     <Label TextColor="white" FontSize = "15" Text="Click image to get started on Barbell Squat"
+               
+     VerticalOptions="CenterAndExpand" 
+     HorizontalOptions="CenterAndExpand" />
+
+     </StackLayout>
+     </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
+
+            
+
+          
+
+          
+        
+  

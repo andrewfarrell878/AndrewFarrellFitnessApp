@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExcerisesAppAndrewFarrell.BarbellSquat">
+    <ContentPage.Content>
+        <StackLayout  BackgroundColor="lightgreen">
+
+
+    <Image x:Name="imageMain" Aspect="AspectFit" >
+     </Image>
+
+    <Label TextColor="white" FontSize = "20" Text="Barbell Squat"
+     VerticalOptions="CenterAndExpand" 
+     HorizontalOptions="CenterAndExpand" />
+
+    <Label TextColor="white" FontSize = "15" Text="Grip the barbell with a wide grip and place the bar on your shoulders. Keep your lower back a little bent and your feet at your width. Push your elbows a liitle back so that your sholder blades nearly meet"
+     VerticalOptions="CenterAndExpand" 
+     HorizontalOptions="CenterAndExpand" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,77 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\barbell-squat.gif" />
+    <None Remove="Images\barbell-squat1.jpg" />
+    <None Remove="Images\Barbelpush.jpg" />
+    <None Remove="Images\bicep-curl.jpg" />
+    <None Remove="Images\Crunch.jpg" />
+    <None Remove="Images\DeclineB.gif" />
+    <None Remove="Images\DIET12.jpg" />
+    <None Remove="Images\Excerises.png" />
+    <None Remove="Images\reversecrunch.gif" />
+    <None Remove="Images\seateddby.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\barbell-squat.gif" />
+    <EmbeddedResource Include="Images\barbell-squat1.jpg" />
+    <EmbeddedResource Include="Images\Barbelpush.jpg" />
+    <EmbeddedResource Include="Images\bicep-curl.jpg" />
+    <EmbeddedResource Include="Images\Crunch.jpg" />
+    <EmbeddedResource Include="Images\DeclineB.gif" />
+    <EmbeddedResource Include="Images\DIET12.jpg" />
+    <EmbeddedResource Include="Images\Excerises.png" />
+    <EmbeddedResource Include="Images\reversecrunch.gif" />
+    <EmbeddedResource Include="Images\seateddby.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="barbellbenchpress.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="BarbellSquat.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="BiceptCurl.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Crunch.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Diet.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="excerises.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ItemPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SignInPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Timer.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="TimerRefresh.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Welcome1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

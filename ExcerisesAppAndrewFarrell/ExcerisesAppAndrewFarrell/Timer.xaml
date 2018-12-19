@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+ xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  x:Class="ExcerisesAppAndrewFarrell.Timer">
+    <ContentPage.Content>
+     <StackLayout BackgroundColor="lightGreen">
+
+     <Label TextColor="white" FontSize = "40" Text="Fitness App"/>
+
+      <Label TextColor="white" FontSize = "30" Text="Timer"
+      VerticalOptions="CenterAndExpand" 
+      HorizontalOptions="CenterAndExpand" />
+
+
+     <Button x:Name="btnLogin" Text="Start" 
+     Margin="10, 5, 10, 10"
+      Clicked="btnLogin_Clicked"/>
+       
+     <Label TextColor="white" FontSize = "30" Text="Click start button to get started !"
+      VerticalOptions="CenterAndExpand" 
+      HorizontalOptions="CenterAndExpand" />
+            
+     <Label TextColor="white" FontSize = "20" Text="Change to a differnt excerise every minute for working out!"
+     VerticalOptions="CenterAndExpand" 
+     HorizontalOptions="CenterAndExpand" />
+
+
+    </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

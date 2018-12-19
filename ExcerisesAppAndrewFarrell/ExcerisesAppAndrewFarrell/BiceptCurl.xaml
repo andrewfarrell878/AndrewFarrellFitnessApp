@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExcerisesAppAndrewFarrell.BiceptCurl">
+    <ContentPage.Content>
+        <StackLayout  BackgroundColor="lightgreen">
+
+
+    <Image x:Name="imageMain" Aspect="AspectFit" >
+    </Image>
+
+    <Label TextColor="white" FontSize = "20" Text="Bicept Curls"
+     VerticalOptions="CenterAndExpand" 
+     HorizontalOptions="CenterAndExpand" />
+            
+    <Label TextColor="white" FontSize = "15" Text="Stand with a straight torso and the dumbbells in your arms pressing elbows to your torso. As you breathe out, bending your elbows and keeping your arms stationary lift upper arms to shoulder level"
+    VerticalOptions="CenterAndExpand" 
+     HorizontalOptions="CenterAndExpand" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExcerisesAppAndrewFarrell.barbellbenchpress">
+    <ContentPage.Content>
+
+     <StackLayout BackgroundColor="lightgreen">
+
+      <Image x:Name="imageMain" Aspect="AspectFit" >
+      </Image>
+
+      <Label TextColor="white" FontSize = "20" Text="Barbell Bench Press"
+       VerticalOptions="CenterAndExpand" 
+       HorizontalOptions="CenterAndExpand" />
+
+      <Label TextColor="white" FontSize = "15" Text="Lie on an horizontal bench, grasp the barbell with a wide grip and lift it above your self. As you inhale lower the barbel to your chest. As you exhale return to the starting position."
+               
+       VerticalOptions="CenterAndExpand" 
+       HorizontalOptions="CenterAndExpand" />
+       </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

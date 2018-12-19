@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExcerisesAppAndrewFarrell.Crunch">
+    <ContentPage.Content>
+        <StackLayout  BackgroundColor="lightgreen">
+
+
+     <Image x:Name="imageMain" Aspect="AspectFit" >
+     </Image>
+
+    <Label TextColor="white" FontSize = "20" Text="Reverse Crunch"
+     VerticalOptions="CenterAndExpand" 
+     HorizontalOptions="CenterAndExpand" />
+
+     <Label TextColor="white" FontSize = "15" Text="Lie on the floor. Move your legs up so that your thighs and feet are together to the floor. As you breathe out, raise your hips and roll towards your torso"
+     VerticalOptions="CenterAndExpand" 
+     HorizontalOptions="CenterAndExpand" />
+            
+        
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

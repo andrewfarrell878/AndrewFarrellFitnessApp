@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExcerisesAppAndrewFarrell.TimerRefresh">
+    <ContentPage.Content>
+    <StackLayout BackgroundColor="lightGreen">
+
+     <Label TextColor="white" FontSize = "40" Text="Fitness App"/>
+
+     <Label TextColor="white" FontSize = "30" Text="Timer"
+     VerticalOptions="CenterAndExpand" 
+    HorizontalOptions="CenterAndExpand" />
+
+    <Grid>
+     <Grid.ColumnDefinitions>
+     <ColumnDefinition Width="25*"/>
+     <ColumnDefinition Width="20*"/>
+     <ColumnDefinition Width="5*"/>
+     <ColumnDefinition Width="25*"/>
+     <ColumnDefinition Width="25*"/>
+     </Grid.ColumnDefinitions>
+     <Grid Grid.Column="0"/>
+     <Label Grid.Column="1" x:Name="_minuteView"   VerticalOptions="Fill" HorizontalOptions="Fill" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="35"/>
+     <Label Grid.Column="2" Text=" : " FontSize="25" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+     <Label Grid.Column="3" x:Name="_secondView" VerticalOptions="Fill" HorizontalOptions="Fill" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="35"/>
+     </Grid> 
+     <Grid Grid.Column="4"/>
+
+     <Label TextColor="white" FontSize = "30" Text="Click back button to reset timer!"
+     VerticalOptions="CenterAndExpand" 
+     HorizontalOptions="CenterAndExpand" />
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

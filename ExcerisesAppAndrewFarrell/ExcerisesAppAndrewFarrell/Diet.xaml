@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExcerisesAppAndrewFarrell.Diet">
+    <ContentPage.Content>
+        <ScrollView >
+        <StackLayout BackgroundColor="lightgreen">
+
+        <Label TextColor="white" FontSize = "40" Text="Fitness App"/>
+
+        <Image x:Name="imageMain" Aspect="Fill" >
+        </Image>
+
+        <Label TextColor="white" FontSize = "20" Text="The Diets Page will tell you what food you should be eating!"
+               
+         VerticalOptions="CenterAndExpand"
+         HorizontalOptions="CenterAndExpand" />
+
+         <Label TextColor="white" FontSize = "30" Text="Protein"/>
+         
+         <Label TextColor="white" FontSize = "20" Text="Eggs"/>
+         <Label TextColor="white" FontSize = "20" Text="Greek yogurt"/>
+         <Label TextColor="white" FontSize = "20" Text="Salmon"/>
+         <Label TextColor="white" FontSize = "20" Text="Chicken"/>
+         <Label TextColor="white" FontSize = "20" Text="Tuna"/>
+
+        <Label TextColor="white" FontSize = "30" Text="Carbs"/>
+
+
+         <Label TextColor="white" FontSize = "20" Text="Sweet potatoes"/>
+         <Label TextColor="white" FontSize = "20" Text="Quinoa"/>
+         <Label TextColor="white" FontSize = "20" Text="Rice"/>
+         <Label TextColor="white" FontSize = "20" Text="Potatoes"/>
+         <Label TextColor="white" FontSize = "20" Text="Pasta"/>
+
+        <Label TextColor="white" FontSize = "30" Text="Fats"/>
+
+         <Label TextColor="white" FontSize = "20" Text="Avocado"/>
+         <Label TextColor="white" FontSize = "20" Text="Nuts"/>
+         <Label TextColor="white" FontSize = "20" Text="Nut butters"/>
+
+
+
+      </StackLayout>
+     </ScrollView>
+    </ContentPage.Content>
+     </ContentPage>
